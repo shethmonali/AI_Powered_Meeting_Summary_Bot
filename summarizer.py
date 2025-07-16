@@ -6,7 +6,7 @@ load_dotenv()
 
 def summarize_meeting(transcript):
     """
-    Summarizes a meeting transcript using OpenAI's GPT-4 via the new SDK (>=1.0.0).
+    Summarizes a meeting transcript using OpenAI's GPT-3.5 via the new SDK (>=1.0.0).
 
     Args:
         transcript (str): The full meeting transcript.
